@@ -1,0 +1,27 @@
+{
+  "name": "lesson8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasyava/lesson8.git"
+  },
+  "author": "kasyava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasyava/lesson8/issues"
+  },
+  "homepage": "https://github.com/kasyava/lesson8#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nanoid": "^2.0.1",
+    "nodemon": "^1.18.9"
+  }
+}
