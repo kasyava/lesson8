@@ -21,7 +21,8 @@ const createRouter = ()=>{
     });
 
     router.post('/', (req, res)=>{
-       const message = req.body;
+        console.log(req.body);
+        const message = req.body;
        if(message.author.length >0 && message.message.length>0){
            fileDb.addMessage(message).then(result =>{
                res.send(result);
